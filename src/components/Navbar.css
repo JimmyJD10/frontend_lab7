@@ -1,0 +1,39 @@
+/* Navbar básico con fondo oscuro */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem; /* Tamaño más grande para el nombre de la app */
+    font-weight: bold; /* Nombre en negrita */
+    color: #fff; /* Color blanco para el nombre */
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-item {
+    margin-left: 20px; /* Espaciado entre los elementos */
+  }
+  
+  .nav-link {
+    font-size: 1.1rem; /* Tamaño de fuente de los enlaces */
+    color: #ddd; /* Color más suave para los enlaces */
+    transition: color 0.3s ease; /* Transición suave para el color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Color azul claro cuando el enlace se pasa el ratón */
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+  }
+  
+  button {
+    margin-left: 20px; /* Espaciado entre el botón y los enlaces */
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Fondo azul cuando se pasa el ratón sobre el botón */
+    border-color: #007bff; /* Borde azul cuando se pasa el ratón sobre el botón */
+  }
+  
